@@ -29073,10 +29073,10 @@ s=B.em.h(0,$.f1)
 if(s==null)s="wood"
 r=a?0.6:1
 return A.bm("place_"+q+"_"+s,40,r)},
-jE(a){return A.b6F(a)},
-b6F(a){var s=0,r=A.w(t.H),q,p=2,o=[],n,m,l,k,j,i
-var $async$jE=A.q(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:if($.ui===a&&$.UF){s=1
+jE(a,b){return A.b6F(a,b)},
+b6F(a,b){var s=0,r=A.w(t.H),q,p=2,o=[],n,m,l,k,j,i
+var $async$jE=A.q(function(c,d){if(c===1){o.push(d)
+s=p}for(;;)switch(s){case 0:if($.ui===a&&$.UF&&!b){s=1
 break}$.ui=a
 $.UF=!1
 A.apJ(a)
@@ -29110,7 +29110,7 @@ b6D(){if($.UF||$.ui==null)return
 var s=$.ui
 s.toString
 $.ui=null
-A.jE(s)},
+A.jE(s,!1)},
 apN(){var s=0,r=A.w(t.H),q=1,p=[],o,n,m
 var $async$apN=A.q(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:$.ui=null
@@ -29165,7 +29165,7 @@ return A.v($async$uj,r)},
 b6H(){var s=$.ui
 if(s==null)return
 $.ui=null
-A.jE(s)},
+A.jE(s,!1)},
 b6E(){var s,r,q
 try{s=$.Gs
 if(s!=null){r=$.iU?0:$.pv/100
@@ -95037,7 +95037,7 @@ s=r.nQ(r.galy())
 s.kW()
 r.e!==$&&A.b1()
 r.e=s
-if(r.a.e)A.jE("bgm_camp")
+if(r.a.e)A.jE("bgm_camp",!1)
 r.ij()},
 l(){A.jF(!1)
 var s=this.e
@@ -95461,7 +95461,7 @@ if(o){o=$.js.a===0&&$.jt.length===0?"":"\uc804\uccb4 "+A.RZ(n)+"\uc704"
 p.eQ("\uc6e8\uc774\ube0c "+n+" \xb7 "+o)}else p.eQ("\uc6e8\uc774\ube0c "+n)}}o=p.y
 if(o.ky())o="bgm_boss"
 else o=(B.f.bA(o.e-1,3)&1)===1?"bgm_battle2":"bgm_battle"
-A.jE(o)
+A.jE(o,!1)
 A.bm("wave_start",40,1)
 p.bz=0
 if(p.e6){p.e6=!1
@@ -100272,7 +100272,7 @@ b.push(A.c7(d,20*e.a.c,d))
 return A.Rb(b,d,d)}}
 A.aFW.prototype={
 $0(){var s=this.b
-if(B.e.b9(s,"bgm_"))A.jE(s)
+if(B.e.b9(s,"bgm_"))A.jE(s,!1)
 else if(B.e.b9(s,"jingle_"))A.uj(s)
 else A.bm(s,0,1)
 return null},
@@ -100304,7 +100304,7 @@ A.aFI.prototype={
 $0(){var s=this.a
 $.pI.m(0,s,this.b)
 $.UL.m(0,"bgm",2)
-A.jE(s)},
+A.jE(s,!0)},
 $S:0}
 A.aFP.prototype={
 $1(a){$.UJ=a
@@ -100378,7 +100378,7 @@ A.fM(B.ql,new A.aG1(r),t.P)
 break}},
 aA(){var s,r,q,p=this
 p.aV()
-A.jE("bgm_map")
+A.jE("bgm_map",!1)
 for(s=1;s<=10;++s)if(s===1||J.d($.eG.h(0,""+(s-1)),!0))p.r=s
 r=A.b5U()
 if(r>0&&r<=10){p.r=p.x=r
@@ -100513,7 +100513,7 @@ A.aGi.prototype={
 $0(){return A.uj("jingle_conquer")},
 $S:7}
 A.aGj.prototype={
-$0(){return A.jE("bgm_map")},
+$0(){return A.jE("bgm_map",!1)},
 $S:7}
 A.aGk.prototype={
 $0(){var s=this.a
@@ -101105,7 +101105,7 @@ return A.n0(this.c.$1(p),q)}}
 A.Ls.prototype={
 aA(){var s,r,q=this
 q.aV()
-A.jE("bgm_title")
+A.jE("bgm_title",!1)
 s=q.f=!$.aUk
 $.aUk=!0
 q.r=s
