@@ -1,0 +1,35 @@
+{
+    "name": "무한 장기",
+    "short_name": "무한 장기",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#140D08",
+    "theme_color": "#140D08",
+    "description": "무한 장기 - 장기 + 로그라이크",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
