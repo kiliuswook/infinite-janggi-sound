@@ -112600,7 +112600,7 @@ $.yv=function(){var s=t.N
 return A.ad(["bgm_title","","bgm_map","","bgm_camp","","bgm_battle","","bgm_battle2","","bgm_battle3","","bgm_boss",""],s,s)}()
 $.GG="brass"
 $.yw="c"
-$.V5="f"
+$.V5="h"
 $.aqh="cur"
 $.V7="a"
 $.V6="b"
