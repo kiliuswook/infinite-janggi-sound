@@ -29055,7 +29055,7 @@ if(r>0)A.jv("level_up",A.ad(["lv",A.i1($.f3)],t.N,t.X))
 return r},
 aNT(a){var s=$.vE()
 return new A.ar(s,new A.any(a),A.a1(s).i("ar<1>")).gE(0)},
-anu(a){var s=A.aNT(a),r=B.y8.h(0,a)
+anu(a){var s=A.aNT(a),r=B.y7.h(0,a)
 return s<(r==null?0:r)},
 TV(a,b){var s,r
 if(b){s=$.dG
@@ -29066,7 +29066,7 @@ r=a.a
 if(s<r)return!1
 $.ex=s-r}return!0},
 b73(a,b){var s
-if(A.anu(a)){s=B.y7.h(0,a)
+if(A.anu(a)){s=B.y6.h(0,a)
 s.toString
 s=!A.TV(s,b)}else s=!0
 if(s)return!1
@@ -29298,7 +29298,7 @@ i=A.W(new A.dE(new A.ar(p,new A.aql(),o.i("ar<E.E>")),new A.aqm(),o.i("dE<E.E,o>
 p=B.yc.gc2()
 o=A.q(p)
 B.b.H(i,new A.dE(new A.ar(p,new A.aqn(),o.i("ar<E.E>")),new A.aqo(),o.i("dE<E.E,o>")))
-o=B.y4.gc2()
+o=B.y9.gc2()
 p=A.q(o)
 B.b.H(i,new A.dE(new A.ar(o,new A.aqp(),p.i("ar<E.E>")),new A.aqq(),p.i("dE<E.E,o>")))
 i.push("capture_alt_thud")
@@ -29315,7 +29315,7 @@ return A.l(A.yu(A.aO6(i[j])),$async$GH)
 case 10:case 8:i.length===p||(0,A.z)(i),++j
 s=7
 break
-case 9:i=B.y6.gc2(),i=i.gN(i),p=new A.nQ(i,new A.aqr())
+case 9:i=B.y5.gc2(),i=i.gN(i),p=new A.nQ(i,new A.aqr())
 case 11:if(!p.p()){s=12
 break}s=13
 return A.l(A.yu("sound/v2/button_wood_"+i.gK()+".mp3"),$async$GH)
@@ -97213,7 +97213,7 @@ if(!this.a.e)return
 A:{if("undo"===a){s=A.b75(b)
 break A}if("pass"===a){s=A.b72(b)
 break A}s=A.b74(b)
-break A}this.h9(s?A.k(B.y9.h(0,a))+"\uc744(\ub97c) \uc0c0\uc5b4\uc694":"\uc7ac\ud654\uac00 \ubaa8\uc790\ub77c\uc694")
+break A}this.h9(s?A.k(B.y8.h(0,a))+"\uc744(\ub97c) \uc0c0\uc5b4\uc694":"\uc7ac\ud654\uac00 \ubaa8\uc790\ub77c\uc694")
 A.b_(s?"buy":"deny",40,1)
 this.b6()},
 gaBM(){var s,r,q
@@ -97224,7 +97224,7 @@ R9(a){var s
 A:{if("undo"===a){s=B.jb
 break A}if("shield"===a){s=B.CQ
 break A}if("pass"===a){s=B.jb
-break A}s=B.y7.h(0,a)
+break A}s=B.y6.h(0,a)
 s.toString
 break A}return s},
 R6(a){var s
@@ -97275,7 +97275,7 @@ p=A.aR(12)
 return A.bO(o,A.cO(A.as(o,A.bL(A.b([A.X(k?"\uad6c\ub9e4":"\uae08\uc6d0\ubcf4\ub85c \uad6c\ub9e4",o,o,o,B.El,o,o,o),B.eJ,new A.nn(k,n,o)],t.p),B.p,B.al,B.o),B.j,o,o,new A.af(m,o,q,p,B.rO,o,B.n),o,116,o,o,o,o,o,220),r),B.C,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,s,o,o,o)},
 Gd(a,b){var s,r=null,q=A.b2(B.a2,2.5),p=A.aR(12),o=A.b2(B.a2,2),n=A.aR(10)
 n=A.as(r,A.aW("assets/ui/item_"+a+".png",B.h,r,B.U,r,r),B.j,r,r,new A.af(B.b2,r,o,n,r,r,B.n),r,132,r,r,B.lq,r,r,105.60000000000001)
-o=B.y9.h(0,a)
+o=B.y8.h(0,a)
 o.toString
 s=t.p
 return A.as(r,A.bz(A.b([n,B.nu,A.i2(A.bL(A.b([A.X(o,r,r,r,B.Ei,r,r,r),A.X("\ubcf4\uc720 "+this.R6(a),r,r,r,B.Er,r,r,r),new A.bu(B.qx,A.X(b,r,r,r,B.a9l,r,r,r),r)],s),B.av,B.al,B.o),1),B.da,this.R7(a,this.R9(a))],s),B.p,B.t,B.o),B.j,r,r,new A.af(B.kD,r,q,p,r,r,B.n),r,156,r,r,B.lo,r,r,r)},
@@ -98564,7 +98564,7 @@ i=A.aW("assets/pieces/p_"+o+".png",B.h,q,B.L,76,76)
 s=B.cL.h(0,o)
 s.toString
 r=t.p
-s=A.b([A.X(s,q,q,q,B.Ei,q,q,q),A.X("\ubcf4\uc720 "+p.R6(o)+"/"+A.k(B.y8.h(0,o)),q,q,q,B.Er,q,q,q)],r)
+s=A.b([A.X(s,q,q,q,B.Ei,q,q,q),A.X("\ubcf4\uc720 "+p.R6(o)+"/"+A.k(B.y7.h(0,o)),q,q,q,B.Er,q,q,q)],r)
 if(o==="chariot"&&Date.now()<$.cR)s.push(B.abW)
 s=A.i2(A.bL(s,B.av,B.al,B.o),1)
 return A.as(q,A.bz(A.b([j,B.ct,i,B.ct,s,B.da,!m?A.as(B.h,B.acx,B.j,q,q,new A.af(B.l_,q,A.b2(B.a2,2),A.aR(10),q,q,B.n),q,116,q,q,q,q,q,220):p.R7(o,n)],r),B.p,B.t,B.o),B.j,q,q,new A.af(B.kD,q,l,k,q,q,B.n),q,156,q,q,B.lo,q,q,q)},
@@ -101105,11 +101105,11 @@ s.push(new A.bu(new A.a7(120*p,0,0,5*p),A.X("\uc7a5\uad70\uc774 \uac78\ub9b0 \ub
 p=f.a.c
 s.push(new A.bu(new A.a7(120*p,0,0,5*p),A.bz(A.b([new A.kS("\uc7a5\uad70 \uc0c1\ud669 \ubbf8\ub9ac \ub4e3\uae30",!1,new A.aGA(),p,e),A.c6(e,e,6*p),new A.kS("\uc7a5\uad70 \ud480\ub9bc",!1,new A.aGB(),p,e)],d),B.p,B.t,B.o),e))
 s.push(f.lE("\uc138\ub825\ub3c4 \uc601\ud1a0 \uace0\ub974\uae30 \uc18c\ub9ac (\uc9c0\ub3c4 \uc704\ub97c \uc2a5)"))
-s.push(f.nz("\uc601\ud1a0 \uace0\ub974\uae30",B.y4,$.aqi,new A.aGC()))
+s.push(f.nz("\uc601\ud1a0 \uace0\ub974\uae30",B.y9,$.aqi,new A.aGC()))
 s.push(f.lE("\ub9d0 \uc7a1\uae30 \uc18c\ub9ac (\ub0a0\uce74\ub85c\uc6c0\uc744 \uc904\uc778 \uc2dc\uc548)"))
 s.push(f.nz("\ub9d0 \uc7a1\uae30",B.WY,$.aqg,new A.aGq()))
 s.push(f.lE("\ubc84\ud2bc \uc18c\ub9ac (\ub098\ubb34 \ubaa9\uac01 \ub204\ub974\ub294 \uc18c\ub9ac \uc2dc\uc548)"))
-s.push(f.nz("\ubc84\ud2bc \uc18c\ub9ac",B.y6,$.V3,new A.aGr()))
+s.push(f.nz("\ubc84\ud2bc \uc18c\ub9ac",B.y5,$.V3,new A.aGr()))
 s.push(f.lE("\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4\xb7\ud328\ubc30 (\ud31d\uc5c5\uacfc \ud568\uaed8 \uc9e7\uac8c \ud55c \ubc88)"))
 s.push(f.nz("\ud074\ub9ac\uc5b4",B.Wz,$.V6,new A.aGs()))
 s.push(f.nz("\ud328\ubc30",B.Wy,$.V5,new A.aGt()))
@@ -109998,8 +109998,6 @@ B.Pk=new A.iG(8,"maximumDouble")
 B.Ww=new A.df([B.Pg,184,B.Ph,185,B.Pi,186,B.qZ,187,B.r_,189,B.m3,190,B.Pj,200,B.r0,201,B.Pk,202,B.r1,203],t.Jy)
 B.XI={mate:0,stuck:1,nopower:2,repeat:3,stale:4,giveup:5}
 B.y3=new A.aT(B.XI,["\uc655\uc774 \uc7a1\ud614\ub2e4 (\uc678\ud1b5\uc218).","\ub458 \uc218 \uc788\ub294 \uc218\uac00 \uc5c6\ub2e4.","\uc2f8\uc6b8 \ub9d0\uc774 \ub0a8\uc9c0 \uc54a\uc558\ub2e4.","\uac19\uc740 \ud310\uc774 \ub418\ud480\uc774\ub410\ub2e4 (\ube44\uae40\uc740 \ud328\ubc30).","40\uc218 \ub3d9\uc548 \uc2b9\ubd80\uac00 \ub098\uc9c0 \uc54a\uc558\ub2e4.","\uc2f8\uc6c0\uc744 \uadf8\ub9cc\ub450\uc5c8\ub2e4."],t.l)
-B.Yb={"":0,a:1,b:2,c:3,d:4,e:5,f:6}
-B.y4=new A.aT(B.Yb,["\uc9c0\uae08(\ubc84\ud2bc\uc74c)","\uc885\uc774 \uc9c0\ub3c4 \uc2a5","\ub098\ubb34 \ub9d0 \ubc00\uae30","\ubd93 \ud719","\ube44\ub2e8 \uc4f8\uae30","\ubc14\ub78c+\uc885\uc774","\uc2a5+\uae43\ubc1c \ucf55"],t.l)
 B.XY={pierce:0,spare:1,loot:2,pursue:3}
 B.Wx=new A.aT(B.XY,["\ud30c\uac11 \ud654\uc0b4!","\uc608\ube44 \ubc29\ud328!","\uc804\ub9ac\ud488 \ubc29\ud328!","\ucd94\uaca9 \uba85\ub839!"],t.l)
 B.XO={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
@@ -110028,7 +110026,7 @@ B.te=new A.i(32)
 B.jr=new A.am(B.te,!1,!1,!1,!1,B.z)
 B.iJ=new A.i(4294967309)
 B.ju=new A.am(B.iJ,!1,!1,!1,!1,B.z)
-B.y5=new A.df([B.ni,B.D,B.nf,B.D,B.ng,B.D,B.nh,B.D,B.Dx,B.D,B.Du,B.D,B.Dv,B.D,B.Dw,B.D,B.jy,B.D,B.jv,B.D,B.jw,B.D,B.jx,B.D,B.Dy,B.D,B.Dz,B.D,B.DC,B.D,B.DD,B.D,B.jr,B.D,B.ju,B.D],t.Fp)
+B.y4=new A.df([B.ni,B.D,B.nf,B.D,B.ng,B.D,B.nh,B.D,B.Dx,B.D,B.Du,B.D,B.Dv,B.D,B.Dw,B.D,B.jy,B.D,B.jv,B.D,B.jw,B.D,B.jx,B.D,B.Dy,B.D,B.Dz,B.D,B.DC,B.D,B.DD,B.D,B.jr,B.D,B.ju,B.D],t.Fp)
 B.yI={a:0,b:1,c:2,jingle:3}
 B.Wy=new A.aT(B.yI,["\ub290\ub9b0 \ubd81+\ub0ae\uc740 \uc9d5","\ub0b4\ub824\uac00\ub294 \ub098\ubc1c","\uce7c \ub5a8\uc5b4\uc9d0+\ubd81\xb7\uc9d5","\uc9e7\uc740 \uace1(\ucc98\uc74c)"],t.l)
 B.Wz=new A.aT(B.yI,["\ubd81 \ub450 \ubc88+\ub098\ubc1c","\uad70\uc0ac \ud568\uc131+\ubd81\xb7\uc9d5","\ub098\ubc1c+\ud070 \ubd81","\uc9e7\uc740 \uace1(\ucc98\uc74c)"],t.l)
@@ -110457,7 +110455,7 @@ B.WB=new A.df([32,B.te,33,B.Vn,34,B.Vo,35,B.Vp,36,B.Vq,37,B.Vr,38,B.Vs,39,B.Vt,4
 B.XM={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12,revive:13,guard:14,chariot:15,cannon:16,horse:17,elephant:18,soldier:19}
 B.WC=new A.aT(B.XM,["\ubc1f\uc73c\uba74 \uc801\ub3c4 \uc544\uad70\ub3c4 \uc4f0\ub7ec\uc9c4\ub2e4","\ub0b4 \ub9d0 \ud558\ub098\uc5d0 \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \ud53c\ud574\ub97c \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \uc218\ub97c \uac00\uc838\uc628\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub9d0\ub85c \uc9c4\ud615\uc744 \ub2e4\uc2dc \uc9e0\ub2e4","\ubc29\ud328\ub97c \ub6ab\uace0 \ud55c \ubc88\uc5d0 \uc7a1\ub294\ub2e4","\uae68\uc9c4 \ubc29\ud328\ub97c \ud55c \ubc88 \ub354 \ucc44\uc6b4\ub2e4","\uc7a1\ub294 \ub370 \uc131\uacf5\ud558\uba74 \ubc29\ud328\ub97c \uc5bb\ub294\ub2e4","\uc878\uc744 \ub2e4\ub978 \ubcd1\uacfc\ub85c \ubc14\uafbc\ub2e4","\uc7a1\uc740 \ub4a4 \ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\uc758 \uccab \ud589\ub3d9\uc744 \ubb36\ub294\ub2e4","\uc7a5\uad70 \uac74 \uc801\uc758 \ubc29\ud328\ub97c \uac77\uc5b4\ub0b8\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \ud3ec\ud68d \uc5fd\uc804\uc744 \ub298\ub9b0\ub2e4","\uc4f0\ub7ec\uc9c4 \ub9d0\uc744 \ub2e4\uc2dc \uc77c\uc73c\ud0a8\ub2e4","\uc655 \uacc1\uc744 \uc9c0\ud0a4\ub294 \ud55c \uce78","\uace7\uac8c \ubc00\uace0 \ub098\uac00\ub294 \ud798","\ub9d0\uc744 \ub118\uc5b4 \uce58\ub294 \ud55c \ubc29","\ube60\ub974\uace0 \ub0a0\uc318 \ub3cc\uaca9","\uba40\ub9ac \ube44\uc2a4\ub4ec\ud788 \uce58\uace0 \ub4e0\ub2e4","\uc55e\uacfc \uc606\uc73c\ub85c \ud55c \uce78\uc529"],t.l)
 B.Yd={"":0,a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12,m:13,n:14}
-B.y6=new A.aT(B.Yd,["\uc9c0\uae08 \uc18c\ub9ac","\ubaa9\uac01 \ub531","\ubaa9\ud0c1","\ubb35\uc9c1\ud55c \ub098\ubb34\ud310","\uc63b\uce60 \ub098\ubb34 \ud328","\ub20c\ub800\ub2e4 \ub5cc","\ub098\ubb34\ud310 \ub454\ud0c1","\ub450\uaebc\uc6b4 \uc63b\uce60 \ud328 \ucff5","\uc63b\uce60 \ud328\ub97c \ud2c0\uc5d0 \ub07c\uc6c0","\uac80\uc740 \uc63b\uce60 \ub098\ubb34 \ud22d","\uc18d \ube48 \uc63b\uce60 \ub2e8\ucd94","\ub098\ubb34 \ub3c4\uc7a5 \ucff5","\ud070 \uc63b\uce60 \ud310 \ub465","d\ub97c \ub0ae\uace0 \ubb35\uc9c1\ud558\uac8c","d\ub97c \ub354 \ub454\ud0c1\ud558\uac8c"],t.l)
+B.y5=new A.aT(B.Yd,["\uc9c0\uae08 \uc18c\ub9ac","\ubaa9\uac01 \ub531","\ubaa9\ud0c1","\ubb35\uc9c1\ud55c \ub098\ubb34\ud310","\uc63b\uce60 \ub098\ubb34 \ud328","\ub20c\ub800\ub2e4 \ub5cc","\ub098\ubb34\ud310 \ub454\ud0c1","\ub450\uaebc\uc6b4 \uc63b\uce60 \ud328 \ucff5","\uc63b\uce60 \ud328\ub97c \ud2c0\uc5d0 \ub07c\uc6c0","\uac80\uc740 \uc63b\uce60 \ub098\ubb34 \ud22d","\uc18d \ube48 \uc63b\uce60 \ub2e8\ucd94","\ub098\ubb34 \ub3c4\uc7a5 \ucff5","\ud070 \uc63b\uce60 \ud310 \ub465","d\ub97c \ub0ae\uace0 \ubb35\uc9c1\ud558\uac8c","d\ub97c \ub354 \ub454\ud0c1\ud558\uac8c"],t.l)
 B.a4u=new A.am(B.mv,!1,!1,!1,!1,B.z)
 B.DE=new A.am(B.fE,!1,!1,!1,!1,B.z)
 B.DF=new A.am(B.iI,!1,!1,!1,!1,B.z)
@@ -110483,15 +110481,17 @@ B.a0y=new A.V(10900,30)
 B.a0z=new A.V(12700,35)
 B.a0A=new A.V(14500,40)
 B.a0E=new A.V(25400,70)
-B.y7=new A.aT(B.yH,[B.a0O,B.a0T,B.a0y,B.a0z,B.a0A,B.a0E],A.ae("aT<o,+(n,n)>"))
-B.y8=new A.aT(B.yH,[4,2,2,2,2,2],t.eL)
+B.y6=new A.aT(B.yH,[B.a0O,B.a0T,B.a0y,B.a0z,B.a0A,B.a0E],A.ae("aT<o,+(n,n)>"))
+B.y7=new A.aT(B.yH,[4,2,2,2,2,2],t.eL)
 B.XN={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.WE=new A.aT(B.XN,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
 B.WF=new A.df([1,"MEDIA_ERR_ABORTED",2,"MEDIA_ERR_NETWORK",3,"MEDIA_ERR_DECODE",4,"MEDIA_ERR_SRC_NOT_SUPPORTED"],t.TM)
 B.WG=new A.df([1,"The user canceled the fetching of the video.",2,"A network error occurred while fetching the video, despite having previously been available.",3,"An error occurred while trying to decode the video, despite having previously been determined to be usable.",4,"The video has been found to be unsuitable (missing or in a format not supported by your browser)."],t.TM)
 B.WH=new A.df([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],t.TM)
 B.XZ={undo:0,shield:1,pass:2}
-B.y9=new A.aT(B.XZ,["\ubb34\ub974\uae30","\ubc29\ud328","\ud55c \uc218 \uc27c"],t.l)
+B.y8=new A.aT(B.XZ,["\ubb34\ub974\uae30","\ubc29\ud328","\ud55c \uc218 \uc27c"],t.l)
+B.Y9={"":0,a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12}
+B.y9=new A.aT(B.Y9,["\uc9c0\uae08(\ubc84\ud2bc\uc74c)","\uc885\uc774 \uc9c0\ub3c4 \uc2a5","\ub098\ubb34 \ub9d0 \ubc00\uae30","\ubd93 \ud719","\ube44\ub2e8 \uc4f8\uae30","\ubc14\ub78c+\uc885\uc774","\uc2a5+\uae43\ubc1c \ucf55","\ubd80\ub4dc\ub7ec\uc6b4 \uc2a4\uc73d","\uac00\ubcbc\uc6b4 \ubc14\ub78c","\uc885\uc774 \ubbf8\ub044\ub7ec\uc9d0","\ub0ae\uace0 \ub530\ub73b\ud55c \ud719","\ucc9c \uc4f8\uae30","\uc591\ud53c\uc9c0 \uc0b4\uc9dd"],t.l)
 B.yG={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
 B.WI=new A.aT(B.yG,[B.vB,B.vC,B.th,B.tw,B.tx,B.tV,B.tW,B.iK,B.x4,B.cn,B.ca,B.cb,B.co,B.ty,B.vu,B.vv,B.vw,B.wW,B.vx,B.vy,B.vz,B.vA,B.wX,B.wY,B.v5,B.v7,B.v6,B.bp,B.tK,B.tL,B.vn,B.vo,B.vp,B.vq,B.vr,B.vs,B.vt,B.x5,B.tM,B.x6,B.tz,B.fF,B.vD,B.vE,B.mq,B.uT,B.vL,B.tX,B.vF,B.vG,B.vH,B.vI,B.vJ,B.vK,B.tY,B.tA,B.tZ,B.to,B.tp,B.tq,B.wJ,B.bq,B.vM,B.vN,B.ud,B.tN,B.dA,B.x7,B.iJ,B.tr,B.fE,B.fE,B.ts,B.tB,B.vO,B.un,B.uw,B.ux,B.uy,B.uz,B.uA,B.uB,B.uC,B.uD,B.uE,B.uF,B.uo,B.uG,B.uH,B.uI,B.uJ,B.uK,B.up,B.uq,B.ur,B.us,B.ut,B.uu,B.uv,B.vP,B.vQ,B.vR,B.vS,B.vT,B.vU,B.vV,B.vW,B.vX,B.vY,B.vZ,B.w_,B.u_,B.tC,B.mp,B.ti,B.x8,B.x9,B.u0,B.u1,B.u2,B.u3,B.w0,B.w1,B.w2,B.ua,B.ub,B.ue,B.xa,B.tD,B.tS,B.uf,B.ug,B.dB,B.tj,B.w3,B.fI,B.w4,B.uc,B.uh,B.ui,B.uj,B.xG,B.xH,B.xb,B.vd,B.v8,B.vl,B.v9,B.vj,B.vm,B.va,B.vb,B.vc,B.vk,B.ve,B.vf,B.vg,B.vh,B.vi,B.w5,B.w6,B.w7,B.w8,B.tO,B.uU,B.uV,B.uW,B.xd,B.w9,B.wK,B.wV,B.wa,B.wb,B.wc,B.wd,B.uX,B.we,B.wf,B.wg,B.wL,B.wM,B.wN,B.wO,B.uY,B.wP,B.uZ,B.v_,B.wZ,B.x_,B.x1,B.x0,B.u4,B.wQ,B.wR,B.wS,B.wT,B.v0,B.u5,B.wh,B.wi,B.u6,B.xc,B.iL,B.wj,B.v1,B.fG,B.fH,B.wU,B.tt,B.tE,B.wk,B.wl,B.wm,B.wn,B.tF,B.wo,B.wp,B.wq,B.tP,B.tQ,B.u7,B.v2,B.tR,B.u8,B.tG,B.wr,B.ws,B.wt,B.tu,B.wu,B.uk,B.wz,B.wA,B.v3,B.wv,B.ww,B.iM,B.tH,B.wx,B.tn,B.u9,B.uL,B.uM,B.uN,B.uO,B.uP,B.uQ,B.uR,B.uS,B.x2,B.x3,B.v4,B.wy,B.tT,B.wB,B.tk,B.tl,B.tm,B.wD,B.xf,B.xg,B.xh,B.xi,B.xj,B.xk,B.xl,B.wE,B.xm,B.xn,B.xo,B.xp,B.xq,B.xr,B.xs,B.xt,B.xu,B.xv,B.xw,B.xx,B.wF,B.xy,B.xz,B.xA,B.xB,B.xC,B.xD,B.xE,B.xF,B.iI,B.wC,B.tv,B.tg,B.wG,B.xe,B.tU,B.wH,B.ul,B.um,B.tI,B.tJ,B.wI],A.ae("aT<o,i>"))
 B.WJ=new A.aT(B.yG,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
@@ -110499,12 +110499,12 @@ B.XB={default:0,jade:1,jade_seal:2,lacquer:3,najeon:4,bronze:5,medallion:6,porce
 B.c_=new A.aT(B.XB,["wood","jade","jade","lacquer","lacquer","bronze","bronze","porcelain","gold"],t.l)
 B.Yh={g:0,s:1,h:2,e:3,c:4,r:5}
 B.mC=new A.aT(B.Yh,["guard","soldier","horse","elephant","cannon","chariot"],t.l)
-B.Y9={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
-B.WK=new A.aT(B.Y9,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
+B.Ya={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
+B.WK=new A.aT(B.Ya,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
 B.Y8={"0.15":0,"0.2":1,"0.3":2,"0.35":3,"0.5":4,"0.7":5,"0.85":6,"1.0":7}
 B.WL=new A.aT(B.Y8,["15%","20%","30%","35%","50%","70%","85%","\uc548 \uc904\uc784"],t.l)
-B.Ya={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12,revive:13}
-B.WM=new A.aT(B.Ya,["\ube48\uce78\uc5d0 \ud568\uc815 \ud558\ub098. \ubc1f\uc740 \ub9d0\uc740\n\uc4f0\ub7ec\uc9c0\uace0 \ubc29\ud328\ub294 \uae68\uc9c4\ub2e4","\ubc29\ud328 \uc5c6\ub294 \ub0b4 \ub9d0 \ud558\ub098\uc5d0\n\ubc14\ub85c \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc6e8\uc774\ube0c, \ub0b4 \ub9d0\uc774 \ubc1b\ub294\n\uccab \uacf5\uaca9\uc744 \ud55c \ubc88 \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\ub294\n\ub0b4\uac00 \uba3c\uc800 \ub454\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub0b4 \ub9d0 \uc804\uccb4\uc758\n\uc790\ub9ac\ub97c \ub2e4\uc2dc \uc815\ud55c\ub2e4","\ubc29\ud328 \uc788\ub294 \uc801\uc744 \ucc98\uc74c \uce60 \ub54c\n\ubc29\ud328\uc640 \ud568\uaed8 \uc7a1\ub294\ub2e4","\ubc29\ud328\uac00 \ucc98\uc74c \uae68\uc9c0\uba74\n\ud55c \uacb9\uc744 \ub2e4\uc2dc \ucc44\uc6b4\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ubc29\ud328 \ud55c \uacb9\uc744 \uc5bb\ub294\ub2e4","\uc878 \ud558\ub098\ub97c \ub9c8\xb7\uc0c1\xb7\ud3ec \uc911\n\ud558\ub098\ub85c \ubc14\uafbc\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\ub294 \uc0c1\ub300 \uccab \ucc28\ub840\uc5d0\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud55c\ub2e4","\ucc98\uc74c \uc7a5\uad70\uc744 \ubc1b\uc73c\uba74 \uc7a5\uad70 \uac74\n\uc801\ub4e4\uc758 \ubc29\ud328\ub97c \uc5c6\uc564\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\uc5d0 \uc801\uc744 \uc7a1\uc544 \ubc1b\ub294\n\uc5fd\uc804\uc774 1.5\ubc30","\uc783\uc740 \ub9d0 \ud558\ub098\ub97c \uace8\ub77c\n\ud310\uc73c\ub85c \ub418\uc0b4\ub9b0\ub2e4"],t.l)
+B.Yb={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12,revive:13}
+B.WM=new A.aT(B.Yb,["\ube48\uce78\uc5d0 \ud568\uc815 \ud558\ub098. \ubc1f\uc740 \ub9d0\uc740\n\uc4f0\ub7ec\uc9c0\uace0 \ubc29\ud328\ub294 \uae68\uc9c4\ub2e4","\ubc29\ud328 \uc5c6\ub294 \ub0b4 \ub9d0 \ud558\ub098\uc5d0\n\ubc14\ub85c \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc6e8\uc774\ube0c, \ub0b4 \ub9d0\uc774 \ubc1b\ub294\n\uccab \uacf5\uaca9\uc744 \ud55c \ubc88 \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\ub294\n\ub0b4\uac00 \uba3c\uc800 \ub454\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub0b4 \ub9d0 \uc804\uccb4\uc758\n\uc790\ub9ac\ub97c \ub2e4\uc2dc \uc815\ud55c\ub2e4","\ubc29\ud328 \uc788\ub294 \uc801\uc744 \ucc98\uc74c \uce60 \ub54c\n\ubc29\ud328\uc640 \ud568\uaed8 \uc7a1\ub294\ub2e4","\ubc29\ud328\uac00 \ucc98\uc74c \uae68\uc9c0\uba74\n\ud55c \uacb9\uc744 \ub2e4\uc2dc \ucc44\uc6b4\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ubc29\ud328 \ud55c \uacb9\uc744 \uc5bb\ub294\ub2e4","\uc878 \ud558\ub098\ub97c \ub9c8\xb7\uc0c1\xb7\ud3ec \uc911\n\ud558\ub098\ub85c \ubc14\uafbc\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\ub294 \uc0c1\ub300 \uccab \ucc28\ub840\uc5d0\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud55c\ub2e4","\ucc98\uc74c \uc7a5\uad70\uc744 \ubc1b\uc73c\uba74 \uc7a5\uad70 \uac74\n\uc801\ub4e4\uc758 \ubc29\ud328\ub97c \uc5c6\uc564\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\uc5d0 \uc801\uc744 \uc7a1\uc544 \ubc1b\ub294\n\uc5fd\uc804\uc774 1.5\ubc30","\uc783\uc740 \ub9d0 \ud558\ub098\ub97c \uace8\ub77c\n\ud310\uc73c\ub85c \ub418\uc0b4\ub9b0\ub2e4"],t.l)
 B.a4J=new A.am(B.bp,!1,!1,!1,!1,B.z)
 B.a4f=new A.am(B.bp,!1,!0,!1,!1,B.z)
 B.Ds=new A.am(B.bq,!1,!1,!1,!1,B.z)
@@ -113059,7 +113059,7 @@ q.m(0,B.nk,B.ik)
 return q})
 s($,"bg5","aQ1",()=>{var q,p,o,n=t.G,m=A.x(t.Vz,n)
 for(q=A.ae("am"),p=0;p<2;++p){o=B.mk[p]
-m.H(0,A.ad([A.fz(B.bp,!1,!1,!1,o),B.D,A.fz(B.bq,!1,!1,!1,o),B.D,A.fz(B.bp,!0,!1,!1,o),B.D,A.fz(B.bq,!0,!1,!1,o),B.D,A.fz(B.bp,!1,!0,!1,o),B.D,A.fz(B.bq,!1,!0,!1,o),B.D,A.fz(B.bp,!1,!1,!0,o),B.D,A.fz(B.bq,!1,!1,!0,o),B.D],q,n))}m.H(0,B.y5)
+m.H(0,A.ad([A.fz(B.bp,!1,!1,!1,o),B.D,A.fz(B.bq,!1,!1,!1,o),B.D,A.fz(B.bp,!0,!1,!1,o),B.D,A.fz(B.bq,!0,!1,!1,o),B.D,A.fz(B.bp,!1,!0,!1,o),B.D,A.fz(B.bq,!1,!0,!1,o),B.D,A.fz(B.bp,!1,!1,!0,o),B.D,A.fz(B.bq,!1,!1,!0,o),B.D],q,n))}m.H(0,B.y4)
 for(n=$.a5M().gc2().gN(0);n.p();)m.m(0,n.gK(),B.D)
 m.m(0,B.Do,B.D)
 m.m(0,B.Dr,B.D)
@@ -113067,7 +113067,7 @@ m.m(0,B.Dq,B.D)
 m.m(0,B.nl,B.D)
 m.m(0,B.DI,B.D)
 return m})
-s($,"bg3","aZj",()=>{var q=A.iQ(B.y5,t.Vz,t.G)
+s($,"bg3","aZj",()=>{var q=A.iQ(B.y4,t.Vz,t.G)
 q.H(0,B.ya)
 q.m(0,B.DE,B.D)
 q.m(0,B.DF,B.D)
