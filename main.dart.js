@@ -112586,7 +112586,7 @@ $.yv=function(){var s=t.N
 return A.ad(["bgm_title","","bgm_map","","bgm_camp","","bgm_battle","","bgm_battle2","","bgm_battle3","","bgm_boss",""],s,s)}()
 $.V4="off"
 $.yw="c"
-$.aqi=""
+$.aqi="f"
 $.aqg="cur"
 $.V6="a"
 $.V5="b"
